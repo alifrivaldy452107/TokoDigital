@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
 function tampilkanProduk() {
     const produkContainer = document.getElementById('produk-container');
     const produkData = [
-        { id: 1, nama: 'Produk Satu', harga: 50 },
+        { id: 1, nama: 'Produk Satu', deskripsi: 'Deskripsi produk satu. Lorem ipsum dolor sit amet.', harga: 50, gambar: 'produk_satu.jpg' },
+        { id: 2, nama: 'Produk Dua', deskripsi: 'Deskripsi produk dua. Consectetur adipiscing elit.', harga: 75, gambar: 'produk_dua.jpg' },
         // Tambahkan produk lain jika diperlukan
     ];
 
@@ -17,8 +18,9 @@ function tampilkanProduk() {
         produkElement.classList.add('produk');
 
         produkElement.innerHTML = `
-            <img src="gambar_produk_${produk.id}.jpg" alt="${produk.nama}">
+            <img src="img/${produk.gambar}" alt="${produk.nama}">
             <h2>${produk.nama}</h2>
+            <p>${produk.deskripsi}</p>
             <p>Harga: $${produk.harga}</p>
             <button onclick="tambahKeKeranjang(${produk.id})" class="button">Tambahkan ke Keranjang</button>
         `;
@@ -49,3 +51,7 @@ function updateKeranjangDisplay() {
     const keranjangDisplay = document.getElementById('keranjang-display');
     keranjangDisplay.textContent = `Keranjang Belanja (${totalItems} item)`;
 }
+
+git add script.js
+git commit -m "Menambahkan deskripsi, harga, dan gambar pada produk"
+git push origin master
