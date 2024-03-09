@@ -1,0 +1,6 @@
+# .gitignore
+img/
+
+git add .gitignore
+git commit -m "Menambahkan img/ ke dalam .gitignore"
+git push origin master
