@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
 function tampilkanProduk() {
     const produkContainer = document.getElementById('produk-container');
     const produkData = [
-        { id: 1, nama: 'Produk Satu', deskripsi: 'Deskripsi produk satu. Lorem ipsum dolor sit amet.', harga: 50, gambar: 'produk_satu.jpg' },
-        { id: 2, nama: 'Produk Dua', deskripsi: 'Deskripsi produk dua. Consectetur adipiscing elit.', harga: 75, gambar: 'produk_dua.jpg' },
+        { id: 1, nama: 'gula gula', deskripsi: 'Deskripsi produk satu. Lorem ipsum dolor sit amet.', harga: 30000, gambar: 'produk_satu.jpg' },
+        { id: 2, nama: 'permenkaert', deskripsi: 'Deskripsi produk dua. Consectetur adipiscing elit.', harga: 75000, gambar: 'produk_dua.jpg' },
         // Tambahkan produk lain jika diperlukan
     ];
 
