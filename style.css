@@ -1,0 +1,65 @@
+/* Reset CSS */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.produk {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.produk img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.keranjang {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ffcc00;
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Tambahan gaya sesuai kebutuhan Anda */
+
+git add style.css
+git commit -m "Menyesuaikan file style.css sesuai dengan preferensi warna dan elemen"
+git push origin master
